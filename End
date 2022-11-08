@@ -1,0 +1,145 @@
+[1mdiff --git a/files/Resume.pdf b/files/Resume.pdf[m
+[1mdeleted file mode 100644[m
+[1mindex 0b351f8..0000000[m
+[1m--- a/files/Resume.pdf[m
+[1m+++ /dev/null[m
+[36m@@ -1,42 +0,0 @@[m
+[31m-Jatin Kumar                                                                    90A Near swati school, Mundka[m
+[31m-                                                                               Delhi, 110041[m
+[31m-(+91) 8130695815 | jatinkumar6489@gmail.com                                    (+91) 8130695815[m
+[31m-                                                                               jatinkumar6489@gmail.com[m
+[31m-[m
+[31m-EXPERIENCE                                                                     SKILLS[m
+[31m-[m
+[31m-Anukulan, New Delhi— Teaching                                                        ● C/C++, Python[m
+[31m-                                                                                     ● HTML and CSS[m
+[31m-JUNE 2022 - JULY 2022                                                                ● JavaScript[m
+[31m-I am working as a Computer Science Teacher, teaching basics of C++                   ● Django[m
+[31m-language and Web Development and doing some beginner level projects                  ● MySQL[m
+[31m-and spreading awareness of education in our society.                                 ● GIT / GITHUB[m
+[31m-                                                                               Familiar with[m
+[31m-EDUCATION                                                                            ● Machine Learning,[m
+[31m-[m
+[31m-DAV Public School, Haryana— 12th                                                           OpenCV[m
+[31m-[m
+[31m-MARCH 2020 - MARCH 2021                                                        AWARDS[m
+[31m-Percentage : 90.1%[m
+[31m-                                                                               Best Debutant Award in[m
+[31m-UPES, Uttarakhand, Dehradun— B.Tech                                            hackathon organized by UPES[m
+[31m-                                                                               (11 Feb - 13 Feb)[m
+[31m-SEPTEMBER 2021 - MAY 2025[m
+[31m-CGPA 1st Year: 8.50[m
+[31m-[m
+[31m-PROJECTS                                                                       LANGUAGES[m
+[31m-[m
+[31m-My Store — Ecommerce website                                                   English, Hindi[m
+[31m-[m
+[31m-My Store is a ecommerce website just like amazon, flipkart. I built this       SOCIAL MEDIA HANDLES[m
+[31m-using python django, javascript, HTML and CSS and Sqlite. For more             Linkedin :[m
+[31m-information please visit my github repository.                                 https://www.linkedin.com/in/[m
+[31m-View my work : https://github.com/JatinKumar001/MyStore                        jatin-kumar-0920b222a[m
+[31m-                                                                               Github :[m
+[31m-AGrow— Agriculture website                                                     https://github.com/JatinKum[m
+[31m-                                                                               ar001[m
+[31m-AGrow is a farming website which connects the farmers to each other for[m
+[31m-exchange of goods, tools and skills. It also tells the user about the weather[m
+[31m-which is the most important feature for the farmers.[m
+[31m-View my work here : https://github.com/JatinKumar001/AGrow[m
+[31m-[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 08ea78d..96f74ba 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -74,9 +74,6 @@[m
+                             <div class="row">[m
+                                 <div class="personal-info padd-15">[m
+                                     <div class="row">[m
+[31m-                                        <div class="info-item padd-15">[m
+[31m-                                            <p>Birthday : <span>28 sep 2003</span></p>[m
+[31m-                                        </div>[m
+                                         <div class="info-item padd-15">[m
+                                             <p>Age : <span>18</span></p>[m
+                                         </div>[m
+[36m@@ -86,9 +83,6 @@[m
+                                         <div class="info-item padd-15">[m
+                                             <p>Degree : <span>Computer Science</span></p>[m
+                                         </div>[m
+[31m-                                        <div class="info-item padd-15">[m
+[31m-                                            <p>Phone : <span>+91 813 069 5815</span></p>[m
+[31m-                                        </div>[m
+                                         <div class="info-item padd-15">[m
+                                             <p>Country : <span>India</span></p>[m
+                                         </div>[m
+[36m@@ -98,7 +92,7 @@[m
+                                     </div>[m
+                                     <div class="row">[m
+                                         <div class="buttons padd-15">[m
+[31m-                                            <a href="/files/Resume.pdf" download="Jatin Resume" class="btn">Download Resume</a>[m
+[32m+[m[32m                                            <a href="/files/Resume1.pdf" download="Jatin Resume" class="btn">Download Resume</a>[m
+                                             <a href="#contact" class="btn hire-me">Hire Me</a>[m
+                                         </div>[m
+                                     </div>[m
+[36m@@ -140,6 +134,13 @@[m
+                                                 <div class="skill-percentage">70%</div>[m
+                                             </div>[m
+                                         </div>[m
+[32m+[m[32m                                        <div class="skill-item padd-15">[m
+[32m+[m[32m                                            <h5>React</h5>[m
+[32m+[m[32m                                            <div class="progress">[m
+[32m+[m[32m                                                <div class="progress-in" style="width: 70%"></div>[m
+[32m+[m[32m                                                <div class="skill-percentage">70%</div>[m
+[32m+[m[32m                                            </div>[m
+[32m+[m[32m                                        </div>[m
+                                     </div>[m
+                                 </div>[m
+                             </div>[m
+[36m@@ -301,7 +302,7 @@[m
+                         <div class="portfolio-item padd-15">[m
+                             <div class="portfolio-item-inner shadow-dark">[m
+                                 <div class="portfolio-img">[m
+[31m-                                    <a href="https://github.com/JatinKumar001/AGrow"><img src="img/Farming Website.png" alt=""></a>[m
+[32m+[m[32m                                    <a href="http://jatinkumar4654.pythonanywhere.com/"><img src="img/Corporate Givers.png" alt="" height="184px"></a>[m
+                                 </div>[m
+                             </div>[m
+                         </div>[m
+[36m@@ -309,18 +310,19 @@[m
+                         <div class="portfolio-item padd-15">[m
+                             <div class="portfolio-item-inner shadow-dark">[m
+                                 <div class="portfolio-img">[m
+[31m-                                    <a href="https://github.com/JatinKumar001/Security-With-AI"><img src="img/hackwithai.jpg" alt=""></a>[m
+[32m+[m[32m                                    <a href="https://github.com/JatinKumar001/AGrow"><img src="img/Farming Website.png" alt=""></a>[m
+                                 </div>[m
+                             </div>[m
+                         </div>[m
+ [m
+[31m-                        <!-- <div class="portfolio-item padd-15">[m
+[32m+[m[32m                        <div class="portfolio-item padd-15">[m
+                             <div class="portfolio-item-inner shadow-dark">[m
+                                 <div class="portfolio-img">[m
+[31m-                                    <img src="img/background1.jpg" alt="">[m
+[32m+[m[32m                                    <a href="https://github.com/JatinKumar001/Security-With-AI"><img src="img/hackwithai.jpg" alt=""></a>[m
+                                 </div>[m
+                             </div>[m
+[31m-                        </div> -->[m
+[32m+[m[32m                        </div>[m
+[32m+[m
+                     </div>[m
+                 </div>[m
+             </section>[m
+[36m@@ -335,13 +337,13 @@[m
+                     <h3 class="contact-title padd-15">Have You Any Questions ?</h3>[m
+                     <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>[m
+                     <div class="row">[m
+[31m-                        <div class="contact-info-item padd-15">[m
+[32m+[m[32m                        <!-- <div class="contact-info-item padd-15">[m
+                             <div class="icon">[m
+                                 <i class="fa fa-phone"></i>[m
+                             </div>[m
+                             <h4>Call On</h4>[m
+[31m-                            <p>+91 8130695815</p>[m
+[31m-                        </div>[m
+[32m+[m[32m                            <p></p>[m
+[32m+[m[32m                        </div> -->[m
+ [m
+                         <div class="contact-info-item padd-15">[m
+                             <div class="icon">[m
